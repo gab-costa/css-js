@@ -1,0 +1,116 @@
+
+
+h1{
+    text-align: center;
+}
+#menu{
+    text-align: center;
+    
+}
+
+#sub1{
+    position: absolute;
+    background-color: brown;
+    right: 0px;
+    top: 0px;
+}
+#sub2{
+    position: absolute;
+    width: 100px;
+    background-color: rgb(48, 92, 18);
+    right: 0px;
+    top: 0px;
+    
+
+}
+
+#sub3{
+    position: absolute;
+    width: 100px;
+    background-color: rgb(48, 92, 18);
+    right: 0px;
+    top: 0px;
+    
+    
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+section{
+    border: solid 5px black;
+    padding: 10px;
+    margin-left: 20px;
+    
+    
+}
+    
+
+.sec1{
+    width: 30%;
+    height: 30%;
+    background-color: green;
+    position: relative;
+    float: left;
+    text-align: left;
+    
+    
+    
+}
+
+.sec2{
+    width: 30%;
+    height: 30%;
+    background-color: greenyellow;
+    position: relative;
+    float: left;
+
+}
+
+.sec3{
+    width: 30%;
+    height: 30%;
+    background-color: indigo;
+    float: left;
+    position: relative;
+}
+
+#sub_text1{
+    margin-top: 20%;
+}
+#sub_text2{
+    margin-top: 20%;
+}
+#sub_text3{
+    margin-top: 20%;
+}
+
+@media (min-width:768px ) and (max-width:991px) {
+    .sec1{
+        width: 45%;
+    }
+    .sec2{
+        width: 45%;
+    }
+    .sec3{
+        margin-top: 40px;
+        width: 90%;
+    }
+}
+
+@media (max-width:767px) {
+    .sec1{
+        width: 90%;
+        margin-top: 40px;
+    }
+    .sec2{
+        margin-top: 40px;
+        width: 90%;
+    }
+    .sec3{
+        margin-top: 40px;
+        width: 90%;
+
+}
